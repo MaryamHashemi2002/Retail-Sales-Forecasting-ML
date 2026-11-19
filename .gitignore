@@ -1,0 +1,49 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Data files
+# ==============================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ==============================
+# Trained models
+# ==============================
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# ==============================
+# Environment variables
+# ==============================
+.env
+.env.*
+
+# ==============================
+# IDE and OS files
+# ==============================
+.vscode/
+.DS_Store
+Thumbs.db
